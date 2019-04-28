@@ -1,0 +1,66 @@
+body{
+    height: 10000px;
+ background: #DCDCDC;
+}
+.container{
+	width: 500px;
+	height: 570px;
+	margin:auto;
+	background: #d2d2d2;
+    cursor:pointer;
+}
+.dial{
+	margin-top: 20px;
+	width: 420px;
+	height: 80px;
+    font-size: 60px;
+    margin-left: 40px	
+}
+.dan{
+	font-size: 20px;
+	margin-left: 20px;
+}
+.btn-number{
+	width: 96px;
+	height: 60px;
+	margin-left: 20px;
+    border: 0px;
+    background: #F8F8FF;
+    font-size: 20px;
+    cursor:pointer;
+}
+.btn-number:hover{
+	width: 96px;
+	height: 60px;
+	margin-left: 20px;
+    background:#6495ED;
+    border: 0px;
+}
+.btn-operator{
+	width: 96px;
+	height: 60px;
+	margin-left: 20px;
+    border: 0px;
+    background: #F8F8FF;
+    font-size: 20px;
+cursor:pointer;
+}
+.btn-operator:hover{
+	width: 96px;
+	height: 60px;
+	margin-left: 20px;
+     background:#FF0000;
+     border: 0px;
+}
+.btn-result{
+	width: 335px;
+	height: 60px;
+	margin-left: 20px;
+    border: 0px;
+    background: #F8F8FF;
+    font-size: 20px;
+    cursor:pointer;
+}
+.btn-result:hover{
+     background:#00FF00;
+}
