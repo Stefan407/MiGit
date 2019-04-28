@@ -1,0 +1,167 @@
+@media (max-width: 1224px) {
+}
+@media (max-width: 1024px) {
+  .top__title {
+    font-size: 25px;
+    margin-bottom: 40px;
+  }
+  .top__text {
+    font-size: 17px;
+  }
+}
+@media (max-width: 900px) {
+  .we-ready ul li {
+    width: 80%;
+  }
+  .gallery__nav img {
+    width: 200px;
+    height: 150px;
+  }
+  .gallery__content {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .gallery__nav img {
+    width: 150px;
+    height: 120px;
+  }
+  .gallery__content {
+    max-width: 600px;
+    width: 500px;
+    height: 500px;
+  }
+  .icon {
+    display: block;
+  }
+  .menu ul {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 20px;
+  }
+  .menu li {
+    background-color: rgba(0, 0, 0, 0.850);
+    display: block;
+    text-align: center;
+  }
+  .menu li + li {
+    padding-left: 0;
+  }
+  .menu a {
+    display: block;
+    padding: 10px 0;
+  }
+  .menu__btn {
+    display: block;
+  }
+  .top__inner {
+    max-width: 700px;
+  }
+  .top__title {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .top__text {
+    font-size: 12px;
+  }
+  .we-ready ul li {
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    padding-left: 40px;
+    position: relative;
+    font-size: 22px;
+  }
+  .why-we ul li {
+    width: 50%;
+  }
+  .tabs {
+    width: 85%;
+  }
+}
+@media (max-width: 640px) {
+  .gallery__nav img {
+  }
+  .gallery__content {
+    width: 400px;
+    height: 400px;
+  }
+  .top__title {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .top__text {
+    font-size: 16px;
+  }
+  .title {
+    font-size: 20px !important;
+  }
+  .about__text {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .tab {
+    font-size: 14px;
+  }
+  .tab-item__text {
+    font-size: 20px;
+  }
+  .why-we ul li {
+    width: 80%;
+  }
+  .tabs {
+    width: 100%;
+  }
+  .tab__content {
+    width: 100%;
+  }
+  .tabs__wrapper {
+    flex-direction: column;
+  }
+}
+@media (max-width: 480px) {
+	.slider__wrapper .slick-dots {
+		bottom: -30px;
+	}
+  .gallery__nav img {
+    height: 80px;
+  }
+  .gallery__content {
+    width: 300px;
+	height: 300px;
+	margin-bottom: 20px;
+  }
+ 
+  .title {
+    margin-bottom: 20px;
+  }
+  .slider__item-title {
+    font-size: 20px;
+  }
+  .slider__text {
+    font-size: 16px;
+  }
+  .social {
+    font-size: 14px;
+  }
+}
+@media (max-width: 320px) {
+  .social {
+    font-size: 10px;
+  }
+  .gallery__content {
+	  width: 100%;
+    max-width: 300px;
+	height: 300px;
+	margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 770px) {
+  .menu ul {
+    display: block !important;
+  }
+}
